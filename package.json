@@ -1,6 +1,6 @@
 {
     "name": "@thesold/x-model",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A renderless Vue component to be used with Vuex instead of v-model",
     "main": "dist/index.js",
     "files": [
