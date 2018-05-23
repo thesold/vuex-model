@@ -1,0 +1,35 @@
+{
+    "name": "@thesold/x-model",
+    "version": "1.0.0",
+    "description": "A renderless Vue component to be used with Vuex instead of v-model",
+    "main": "dist/index.js",
+    "files": [
+        "dist/index.js",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "rollup -c",
+        "watch": "rollup -mwc",
+        "precommit": "lint-staged",
+        "prepublish": "npm run build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Marco Mark <m2de@outlook.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-eslint": "^8.0.2",
+        "babel-preset-es2015-rollup": "^3.0.0",
+        "eslint": "^4.12.1",
+        "eslint-config-airbnb-base": "^12.1.0",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-vue": "^2.1.0",
+        "husky": "^0.14.3",
+        "jsonlint": "^1.6.0",
+        "lint-staged": "^6.0.0",
+        "markdownlint-cli": "^0.5.0",
+        "rollup": "^0.56.2",
+        "rollup-plugin-babel": "^3.0.2"
+    },
+    "dependencies": {}
+}
